@@ -8,7 +8,7 @@ public class Practice6_LambdaWithMapIteration {
         map.put("Nick", "50");
         map.put("Thomas", "98");
 
-        map.forEach((String k, String v) -> {
+        map.forEach(( k,  v) -> {
             System.out.println(k + " : " + v);
         });
     }

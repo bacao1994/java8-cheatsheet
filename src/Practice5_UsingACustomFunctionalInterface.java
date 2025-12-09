@@ -9,8 +9,8 @@ public class Practice5_UsingACustomFunctionalInterface {
         Calculator add = Integer::sum;
         Calculator multiply = (a, b) -> a * b;
 
-        Integer sum = add.calculate(2, 3);
-        Integer multiplication = multiply.calculate(5, 6);
+        int sum = add.calculate(2, 3);
+        int multiplication = multiply.calculate(5, 6);
 
         System.out.println(sum);
         System.out.println(multiplication);
